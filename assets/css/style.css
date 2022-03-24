@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    cursor: pointer;
+    cursor: all-scroll;
     overflow: hidden;
 }
 body:before{
@@ -57,23 +57,27 @@ input:checked + label{
 }
 .duck:nth-last-of-type(1){
     animation: duckfly 10s linear 1s infinite;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 .duck:nth-last-of-type(2){
     animation: duckfly 20s linear 2s infinite;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 .duck:nth-last-of-type(3){
     animation: duckfly 25s linear 3s infinite;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 .duck:nth-last-of-type(4){
     animation: duckfly 30s linear 4s infinite;
-    cursor: pointer;
+    cursor: all-scroll;
 }
 .duck:nth-last-of-type(5){
     animation: duckfly 50s linear 5s infinite;
-    cursor: pointer;
+    cursor: all-scroll;
+}
+.duck:nth-last-of-type(6){
+    animation: duckfly 60s linear 6s infinite;
+    cursor: all-scroll;
 }
 .score{
     position: absolute;
