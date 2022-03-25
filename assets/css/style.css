@@ -80,19 +80,19 @@ input:checked + label{
     cursor: all-scroll;
 }
 .duck:nth-last-of-type(7){
-    animation: duckfly 15s linear 1s infinite;
+    animation: duckfly 5s linear 1s infinite;
     cursor: all-scroll;
 }
 .duck:nth-last-of-type(8){
-    animation: duckfly 30s linear 8s infinite;
+    animation: duckfly 5s linear 3s infinite;
     cursor: all-scroll;
 }
 .duck:nth-last-of-type(9){
-    animation: duckfly 10s linear 9s infinite;
+    animation: duckfly 3s linear 2s infinite;
     cursor: all-scroll;
 }
-.duck:nth-last-of-type(20){
-    animation: duckfly 140s linear 9s infinite;
+.duck:nth-last-of-type(10){
+    animation: duckfly 2s linear 3s infinite;
     cursor: all-scroll;
 }
 .score{
